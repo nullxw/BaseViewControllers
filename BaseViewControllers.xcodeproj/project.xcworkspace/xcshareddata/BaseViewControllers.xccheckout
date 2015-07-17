@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>05BBDAEB-1BC9-4A64-B60F-9792646C961B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BaseViewControllers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>26DAAB469005471A742BBAD5AAEF7D3CED6B4E8F</key>
+		<string>https://github.com/YouXianMing/BaseViewControllers.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BaseViewControllers.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>26DAAB469005471A742BBAD5AAEF7D3CED6B4E8F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YouXianMing/BaseViewControllers.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>26DAAB469005471A742BBAD5AAEF7D3CED6B4E8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>26DAAB469005471A742BBAD5AAEF7D3CED6B4E8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BaseViewControllers</string>
+		</dict>
+	</array>
+</dict>
+</plist>

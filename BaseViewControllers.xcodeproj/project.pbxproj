@@ -35,6 +35,7 @@
 		10100BA11B5906B200731753 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10100B8B1B5906B200731753 /* UIProgressView+AFNetworking.m */; };
 		10100BA21B5906B200731753 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10100B8D1B5906B200731753 /* UIRefreshControl+AFNetworking.m */; };
 		10100BA31B5906B200731753 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10100B8F1B5906B200731753 /* UIWebView+AFNetworking.m */; };
+		10DCB6D41B59457C005F3A4A /* UIView+ScreensShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		10100B8E1B5906B200731753 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		10100B8F1B5906B200731753 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		10100BA41B5906EB00731753 /* BaseViewControllers.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewControllers.pch; sourceTree = "<group>"; };
+		10DCB6D21B59457C005F3A4A /* UIView+ScreensShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreensShot.h"; sourceTree = "<group>"; };
+		10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreensShot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +228,7 @@
 		10100B611B59066000731753 /* 工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				10DCB6D11B594564005F3A4A /* UIView + Category */,
 				10100B541B5904E500731753 /* BaseViewControllers */,
 				10100B621B59068700731753 /* Networking */,
 			);
@@ -302,6 +306,15 @@
 				10100B8F1B5906B200731753 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		10DCB6D11B594564005F3A4A /* UIView + Category */ = {
+			isa = PBXGroup;
+			children = (
+				10DCB6D21B59457C005F3A4A /* UIView+ScreensShot.h */,
+				10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */,
+			);
+			name = "UIView + Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +428,7 @@
 				10100B961B5906B200731753 /* AFURLRequestSerialization.m in Sources */,
 				10100B5A1B5904F500731753 /* BaseNavigationViewController.m in Sources */,
 				10100BA01B5906B200731753 /* UIImageView+AFNetworking.m in Sources */,
+				10DCB6D41B59457C005F3A4A /* UIView+ScreensShot.m in Sources */,
 				10100B991B5906B200731753 /* AFDownloadRequestOperation.m in Sources */,
 				10100B9D1B5906B200731753 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				10100B9C1B5906B200731753 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -618,6 +632,7 @@
 				10100B501B5904B300731753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10100B511B5904B300731753 /* Build configuration list for PBXNativeTarget "BaseViewControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -626,6 +641,7 @@
 				10100B531B5904B300731753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
