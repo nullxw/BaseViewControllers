@@ -1,0 +1,24 @@
+//
+//  BaseViewControllers.pch
+//  BaseViewControllers
+//
+//  Created by YouXianMing on 15/7/17.
+//  Copyright (c) 2015年 YouXianMing. All rights reserved.
+//
+
+#ifndef BaseViewControllers_BaseViewControllers_pch
+#define BaseViewControllers_BaseViewControllers_pch
+
+/*-----------------------------------------------------
+ * $(SRCROOT)/$(PROJECT_NAME)/BaseViewControllers.pch *
+ -----------------------------------------------------*/
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Networking.h"
+#endif
+
+#endif
