@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "RootNavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,11 +22,20 @@
     // Override point for customization after application launch.
     self.window                    = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor    = [UIColor whiteColor];
-    self.window.rootViewController = [[RootViewController alloc] init];
+    
+    [self setup];
     
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+- (void)setup {
+
+    RootViewController           *rootVC = [[RootViewController alloc] init];
+    RootNavigationViewController *rootNV = [[RootNavigationViewController alloc] initWithRootViewController:rootVC
+                                                                                     setNavigationBarHidden:YES];
+    self.window.rootViewController       = rootNV;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

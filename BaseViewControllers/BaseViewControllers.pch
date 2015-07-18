@@ -19,6 +19,8 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "Networking.h"
+#import "WxHxD.h"
+#import "UsedColor.h"
 #endif
 
 #endif

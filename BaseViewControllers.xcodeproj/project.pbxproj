@@ -35,6 +35,8 @@
 		10100BA11B5906B200731753 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10100B8B1B5906B200731753 /* UIProgressView+AFNetworking.m */; };
 		10100BA21B5906B200731753 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10100B8D1B5906B200731753 /* UIRefreshControl+AFNetworking.m */; };
 		10100BA31B5906B200731753 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 10100B8F1B5906B200731753 /* UIWebView+AFNetworking.m */; };
+		1046DDB61B5B0F2600CAC50E /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1046DDB51B5B0F2600CAC50E /* RootNavigationViewController.m */; };
+		1046DDBA1B5B11D400CAC50E /* UIView+Inits.m in Sources */ = {isa = PBXBuildFile; fileRef = 1046DDB91B5B11D400CAC50E /* UIView+Inits.m */; };
 		10D8A3CB1B59E18E00B20025 /* UIColor+uiGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8A3CA1B59E18E00B20025 /* UIColor+uiGradients.m */; };
 		10D8A3D51B59E82A00B20025 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8A3D41B59E82A00B20025 /* GradientView.m */; };
 		10DCB6D41B59457C005F3A4A /* UIView+ScreensShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */; };
@@ -110,6 +112,12 @@
 		10100B8E1B5906B200731753 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		10100B8F1B5906B200731753 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		10100BA41B5906EB00731753 /* BaseViewControllers.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewControllers.pch; sourceTree = "<group>"; };
+		1046DDB41B5B0F2600CAC50E /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
+		1046DDB51B5B0F2600CAC50E /* RootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
+		1046DDB71B5B10F800CAC50E /* WxHxD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxHxD.h; sourceTree = "<group>"; };
+		1046DDB81B5B11D400CAC50E /* UIView+Inits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Inits.h"; sourceTree = "<group>"; };
+		1046DDB91B5B11D400CAC50E /* UIView+Inits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Inits.m"; sourceTree = "<group>"; };
+		1046DDBB1B5B133C00CAC50E /* UsedColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsedColor.h; sourceTree = "<group>"; };
 		10D8A3C91B59E18E00B20025 /* UIColor+uiGradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+uiGradients.h"; sourceTree = "<group>"; };
 		10D8A3CA1B59E18E00B20025 /* UIColor+uiGradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+uiGradients.m"; sourceTree = "<group>"; };
 		10D8A3D31B59E82A00B20025 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -161,6 +169,8 @@
 				10100B331B5904B300731753 /* AppDelegate.m */,
 				10100B5B1B59051900731753 /* RootViewController.h */,
 				10100B5C1B59051900731753 /* RootViewController.m */,
+				1046DDB41B5B0F2600CAC50E /* RootNavigationViewController.h */,
+				1046DDB51B5B0F2600CAC50E /* RootNavigationViewController.m */,
 				10100B5E1B59059100731753 /* 首页 */,
 				10100B5F1B59059800731753 /* 设置 */,
 				10100B601B5905CC00731753 /* 更多 */,
@@ -175,6 +185,8 @@
 		10100B2E1B5904B300731753 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1046DDB71B5B10F800CAC50E /* WxHxD.h */,
+				1046DDBB1B5B133C00CAC50E /* UsedColor.h */,
 				10100B2F1B5904B300731753 /* Info.plist */,
 				10100B301B5904B300731753 /* main.m */,
 				10100BA41B5906EB00731753 /* BaseViewControllers.pch */,
@@ -339,6 +351,8 @@
 			children = (
 				10DCB6D21B59457C005F3A4A /* UIView+ScreensShot.h */,
 				10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */,
+				1046DDB81B5B11D400CAC50E /* UIView+Inits.h */,
+				1046DDB91B5B11D400CAC50E /* UIView+Inits.m */,
 			);
 			name = "UIView + Category";
 			sourceTree = "<group>";
@@ -450,6 +464,7 @@
 				10100B931B5906B200731753 /* AFNetworkReachabilityManager.m in Sources */,
 				10100B981B5906B200731753 /* AFURLSessionManager.m in Sources */,
 				10100B9E1B5906B200731753 /* UIAlertView+AFNetworking.m in Sources */,
+				1046DDBA1B5B11D400CAC50E /* UIView+Inits.m in Sources */,
 				10100B9A1B5906B200731753 /* DownloadTask.m in Sources */,
 				10100B961B5906B200731753 /* AFURLRequestSerialization.m in Sources */,
 				10100B5A1B5904F500731753 /* BaseNavigationViewController.m in Sources */,
@@ -465,6 +480,7 @@
 				10100B911B5906B200731753 /* AFHTTPRequestOperationManager.m in Sources */,
 				10100B941B5906B200731753 /* AFSecurityPolicy.m in Sources */,
 				10100B311B5904B300731753 /* main.m in Sources */,
+				1046DDB61B5B0F2600CAC50E /* RootNavigationViewController.m in Sources */,
 				10D8A3CB1B59E18E00B20025 /* UIColor+uiGradients.m in Sources */,
 				10100BA31B5906B200731753 /* UIWebView+AFNetworking.m in Sources */,
 				10100B5D1B59051900731753 /* RootViewController.m in Sources */,
