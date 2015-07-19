@@ -21,6 +21,7 @@
 #import "Networking.h"
 #import "WxHxD.h"
 #import "UsedColor.h"
+#import "UIView+SetRect.h"
 #endif
 
 #endif
