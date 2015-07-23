@@ -72,6 +72,9 @@
 		10D8A3CB1B59E18E00B20025 /* UIColor+uiGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8A3CA1B59E18E00B20025 /* UIColor+uiGradients.m */; };
 		10D8A3D51B59E82A00B20025 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8A3D41B59E82A00B20025 /* GradientView.m */; };
 		10DCB6D41B59457C005F3A4A /* UIView+ScreensShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */; };
+		10E9489D1B607C7F0015BFB3 /* NSArray+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E948981B607C7F0015BFB3 /* NSArray+JSONData.m */; };
+		10E9489E1B607C7F0015BFB3 /* NSDictionary+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E9489A1B607C7F0015BFB3 /* NSDictionary+JSONData.m */; };
+		10E9489F1B607C7F0015BFB3 /* NSString+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E9489C1B607C7F0015BFB3 /* NSString+JSONData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,6 +227,12 @@
 		10D8A3D41B59E82A00B20025 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		10DCB6D21B59457C005F3A4A /* UIView+ScreensShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScreensShot.h"; sourceTree = "<group>"; };
 		10DCB6D31B59457C005F3A4A /* UIView+ScreensShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScreensShot.m"; sourceTree = "<group>"; };
+		10E948971B607C7F0015BFB3 /* NSArray+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONData.h"; sourceTree = "<group>"; };
+		10E948981B607C7F0015BFB3 /* NSArray+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONData.m"; sourceTree = "<group>"; };
+		10E948991B607C7F0015BFB3 /* NSDictionary+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONData.h"; sourceTree = "<group>"; };
+		10E9489A1B607C7F0015BFB3 /* NSDictionary+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONData.m"; sourceTree = "<group>"; };
+		10E9489B1B607C7F0015BFB3 /* NSString+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONData.h"; sourceTree = "<group>"; };
+		10E9489C1B607C7F0015BFB3 /* NSString+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +355,7 @@
 		10100B611B59066000731753 /* 工具类 */ = {
 			isa = PBXGroup;
 			children = (
+				10E948961B607C710015BFB3 /* JSONKit */,
 				1046DDBE1B5BD69600CAC50E /* Protocols */,
 				10D8A3D21B59E7EA00B20025 /* UIView */,
 				10D8A3C81B59E17E00B20025 /* UIColor + Category */,
@@ -557,6 +567,19 @@
 			name = "UIView + Category";
 			sourceTree = "<group>";
 		};
+		10E948961B607C710015BFB3 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				10E948971B607C7F0015BFB3 /* NSArray+JSONData.h */,
+				10E948981B607C7F0015BFB3 /* NSArray+JSONData.m */,
+				10E948991B607C7F0015BFB3 /* NSDictionary+JSONData.h */,
+				10E9489A1B607C7F0015BFB3 /* NSDictionary+JSONData.m */,
+				10E9489B1B607C7F0015BFB3 /* NSString+JSONData.h */,
+				10E9489C1B607C7F0015BFB3 /* NSString+JSONData.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -664,11 +687,13 @@
 				10100B9F1B5906B200731753 /* UIButton+AFNetworking.m in Sources */,
 				1046DE161B5BD6D500CAC50E /* UITextView+GONMarkupParser.m in Sources */,
 				1046DE0B1B5BD6D500CAC50E /* GONMarkupNamedColor.m in Sources */,
+				10E9489E1B607C7F0015BFB3 /* NSDictionary+JSONData.m in Sources */,
 				1046DE071B5BD6D500CAC50E /* GONMarkupLineBreak.m in Sources */,
 				10100BA11B5906B200731753 /* UIProgressView+AFNetworking.m in Sources */,
 				1046DE211B5BDC5200CAC50E /* UILabel+Inits.m in Sources */,
 				10100B931B5906B200731753 /* AFNetworkReachabilityManager.m in Sources */,
 				10100B981B5906B200731753 /* AFURLSessionManager.m in Sources */,
+				10E9489D1B607C7F0015BFB3 /* NSArray+JSONData.m in Sources */,
 				10100B9E1B5906B200731753 /* UIAlertView+AFNetworking.m in Sources */,
 				1046DE101B5BD6D500CAC50E /* GONMarkupParserUtils.m in Sources */,
 				1046DDBA1B5B11D400CAC50E /* UIView+Inits.m in Sources */,
@@ -698,6 +723,7 @@
 				1046DE0C1B5BD6D500CAC50E /* GONMarkupNamedFont.m in Sources */,
 				10100B341B5904B300731753 /* AppDelegate.m in Sources */,
 				1046DE031B5BD6D500CAC50E /* GONMarkupFont.m in Sources */,
+				10E9489F1B607C7F0015BFB3 /* NSString+JSONData.m in Sources */,
 				10100B9B1B5906B200731753 /* Networking.m in Sources */,
 				10100B911B5906B200731753 /* AFHTTPRequestOperationManager.m in Sources */,
 				10100B941B5906B200731753 /* AFSecurityPolicy.m in Sources */,
